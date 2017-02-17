@@ -13,7 +13,7 @@ def main():
         sys.exit("Missing dependency. Install `docker`.")
 
     # parse command-line arguments
-    parser = argparse.ArgumentParser(prog="submit50", add_help=False)
+    parser = argparse.ArgumentParser(prog="cli50", add_help=False)
     parser.add_argument("-h", "--help", action="store_true")
     parser.add_argument("-u", "--update", action="store_true")
     parser.add_argument("args", nargs="*")
