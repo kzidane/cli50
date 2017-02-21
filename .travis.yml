@@ -9,5 +9,6 @@ before_deploy: pip install awscli
 deploy:
   provider: script
   script: aws s3 mv --recursive dist s3://mirror.cs50.net/pypi/cli50/
+  skip_cleanup: true
   on:
     all_branches: true
