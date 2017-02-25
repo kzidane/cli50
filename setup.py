@@ -12,8 +12,8 @@ setup(
     ],
     description="This is CS50 CLI, with which you can mount a directory inside of an Ubuntu container.",
     keywords="cli50",
-    name="cli50",
+    name="cli50-test",
     scripts=["cli50"],
     url="https://github.com/cs50/cli50",
-    version="1.0.0"
+    version="1.3"
 )
